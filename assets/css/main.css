@@ -1,4 +1,8 @@
 @import '../fonts/fonts.css';
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+@import '../../components/main/main.css';
+@import '../../components/page/page.css';
 
 :root {
   --white: #ffffff;
@@ -25,36 +29,6 @@ body {
 }
 
 .container {
-  padding: 32px;
-}
-
-.header__title {
-  font-size: 50px;
-  line-height: 64px;
-  font-weight: 600;
-  font-family: 'Inter';
-  color: var(--black);
-}
-
-.main {
-  height: 500px;
-  background-color: var(--grey-1);
-}
-
-.footer__title {
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 500;
-  color: var(--black);
-  font-family: 'Inter';
-  text-align: center;
-}
-
-.footer__description {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color: var(--black);
-  font-family: 'Inter';
-  text-align: center;
+  margin: 0 auto;
+  max-width: 1110;
 }
