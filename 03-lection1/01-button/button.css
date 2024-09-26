@@ -9,15 +9,12 @@
   text-align: center;
   border-radius: 8px;
   height: 48px;
-  width: 189px;
-}
-
-.button:hover {
-  cursor: pointer;
+  padding: 0 66px;
 }
 
 .button:disabled {
   cursor: default;
+  pointer-events: none;
   opacity: 50%;
 }
 

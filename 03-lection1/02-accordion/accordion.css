@@ -31,23 +31,11 @@
 .accordion__item {
   border: 1px solid;
   border-color: var(--gray-3);
-  padding: 16px;
+  padding: 24px 32px;
   border-radius: 8px;
   margin-bottom: 8px;
 }
 
 .accordion__item:last-child {
   margin-bottom: 0;
-}
-
-.accordion__item .accordeon__chevron--down {
-  display: none;
-}
-
-.accordion__item[open] .accordeon__chevron--down {
-  display: block;
-}
-
-.accordion__item[open] .accordeon__chevron--up {
-  display: none;
 }
