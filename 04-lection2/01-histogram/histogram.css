@@ -1,11 +1,9 @@
 .histogram {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  height: 185px;
   border-radius: 8px;
   border: 1px solid var(--grey-3);
-  padding: 16px 24px;
+  padding: 16px 24px 24px;
   font-family: Inter;
 }
 
@@ -20,52 +18,51 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
 }
 
 .histogram__label {
+  margin-top: 6px;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  text-align: left;
 }
 
-.histogram__detail_link {
+.histogram__link {
   color: var(--primary);
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: right;
 }
 
 .histogram__detail_link:hover {
   text-decoration: underline;
 }
 
-.histogram__bar_container {
+.histogram__container {
+  margin-top: 39px;
   display: flex;
-  flex: 1;
   flex-direction: row;
   justify-content: space-between;
   gap: 1px;
   align-items: flex-end;
+  height: 50px;
 }
 
 .histogram__bar {
   flex: 1;
-  height: 100px;
+  height: 100%;
   background-color: var(--primary);
 }
 
-.histogram__bar:nth-child(2n) {
-  height: 25px;
+.histogram__bar_small {
+  height: 25%;
 }
 
-.histogram__bar:nth-child(3n) {
-  height: 50px;
+.histogram__bar_medium {
+  height: 50%;
 }
 
-.histogram__bar:nth-child(4n) {
-  height: 75px;
+.histogram__bar_large {
+  height: 75%;
 }
