@@ -35,7 +35,7 @@
   line-height: 24px;
 }
 
-.histogram__detail_link:hover {
+.histogram__link:hover {
   text-decoration: underline;
 }
 
