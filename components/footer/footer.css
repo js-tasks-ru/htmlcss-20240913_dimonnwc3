@@ -18,3 +18,16 @@
   color: var(--black);
   text-align: center;
 }
+
+.footer__caption {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: var(--grey-3);
+  text-align: center;
+}
+
+.foter_theme_gray {
+  background-color: var(--grey-1);
+}
