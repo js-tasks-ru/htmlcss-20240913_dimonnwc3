@@ -6,8 +6,16 @@
 }
 
 .component-detail__title {
-  font-family: Inter;
-  font-size: 28px;
-  font-weight: 400;
   line-height: 38px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .component-detail__title {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+  }
 }

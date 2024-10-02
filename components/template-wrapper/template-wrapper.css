@@ -1,6 +1,12 @@
 .template-wrapper {
   margin-top: 36px;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr;
   gap: 56px;
+}
+
+@media screen and (min-width: 768px) {
+  .template-wrapper {
+    grid-template-columns: auto 1fr;
+  }
 }
