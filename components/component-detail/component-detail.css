@@ -1,0 +1,13 @@
+.component-detail {
+  box-shadow: 0px 2px 4px 0px #2124290d;
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 32px 48px;
+}
+
+.component-detail__title {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
