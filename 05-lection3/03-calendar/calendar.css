@@ -28,18 +28,7 @@
   grid-template-columns: repeat(7, 1fr);
 }
 
-.calendar__day {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  color: var(--grey-3);
-}
-
-.calendar__date {
+.calendar__cell {
   cursor: pointer;
   flex: 1;
   display: flex;
@@ -51,11 +40,17 @@
   color: var(--grey-4);
 }
 
-.calendar__date_inner_selected {
+.calendar__cell_inner_selected {
   background-color: rgba(160, 177, 245, 0.2);
 }
 
-.calendar__date_outer_selected {
+.calendar__cell_outer_selected {
   background-color: var(--purple);
   color: var(--white);
+}
+
+.calendar__cell_weekday {
+  cursor: default;
+  color: var(--grey-3);
+  font-size: 14px;
 }
