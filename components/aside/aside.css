@@ -1,5 +1,12 @@
 .aside {
+  display: none;
   font-family: 'Inter';
+}
+
+@media screen and (min-width: 768px) {
+  .aside {
+    display: block;
+  }
 }
 
 .aside__title {
