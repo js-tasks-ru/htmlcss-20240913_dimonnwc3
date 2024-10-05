@@ -9,3 +9,15 @@
   font-weight: 600;
   color: var(--black);
 }
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__img {
+  width: 110px;
+  height: 32px;
+  object-fit: contain;
+}
