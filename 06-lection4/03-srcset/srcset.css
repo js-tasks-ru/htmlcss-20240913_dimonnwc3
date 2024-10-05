@@ -1,0 +1,9 @@
+.block {
+  width: 300px;
+  height: 300px;
+}
+
+.block__img {
+  max-width: 100%;
+  object-fit: contain;
+}
