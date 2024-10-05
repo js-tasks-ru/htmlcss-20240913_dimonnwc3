@@ -8,7 +8,7 @@
   flex-grow: 1;
 }
 
-.page__main_cards {
+.page__cards {
   padding: 24px 0;
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .page__main_cards {
+  .page__cards {
     padding: 68px 0;
     gap: 30px;
   }
