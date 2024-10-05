@@ -6,6 +6,7 @@
 @import '../../components/card/card.css';
 @import '../../components/template-wrapper/template-wrapper.css';
 @import '../../components/aside/aside.css';
+@import '../../components/icon/icon.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../components/component-detail/component-detail.css';
 
@@ -46,10 +47,4 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1110px;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-  color: var(--black);
 }
