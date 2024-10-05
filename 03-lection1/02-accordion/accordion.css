@@ -14,6 +14,10 @@
   gap: 8px;
 }
 
+.accordion__item[open] .accordeon__icon {
+  transform: rotate(180deg);
+}
+
 .accordion__content {
   font-family: Inter;
   font-size: 16px;
