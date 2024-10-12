@@ -10,6 +10,7 @@
   letter-spacing: 0.04em;
   color: var(--grey-3);
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .input__wrapper {
@@ -23,7 +24,9 @@
   color: var(--grey-4);
   border: 1px solid var(--grey-2);
   border-radius: 8px;
-  padding: 17px 48px 13px 24px;
+  height: 56px;
+  padding-right: 48px;
+  padding-left: 24px;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -43,10 +46,6 @@
 }
 
 .input__field::placeholder {
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 26px;
   color: var(--grey-2);
 }
 
@@ -55,6 +54,7 @@
   right: 16px;
   top: 50%;
   transform: translateY(-50%);
+  display: none;
 }
 
 .input_success .input__icon {
@@ -63,4 +63,9 @@
 
 .input_invalid .input__icon {
   color: var(--error);
+}
+
+.input_success .input__icon_success,
+.input_invalid .input__icon_invalid {
+  display: block;
 }
