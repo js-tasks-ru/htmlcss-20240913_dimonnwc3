@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <div class="input">
+      <label for="text" class="input__label">Label</label>
+      <div class="input__wrapper">
+        <input
+          class="input__field"
+          id="text"
+          name="text"
+          type="text"
+          placeholder="Placeholder"
+        />
+        <svg class="icon input__icon input__icon_success">
+          <use href="../../assets/images/sprite.svg#check-circle"></use>
+        </svg>
+        <svg class="icon input__icon input__icon_invalid">
+          <use href="../../assets/images/sprite.svg#alert-triangle"></use>
+        </svg>
+      </div>
+    </div>
 
-    </body>
+    <div class="input input_success">
+      <label for="text" class="input__label">Label</label>
+      <div class="input__wrapper">
+        <input
+          class="input__field"
+          id="text"
+          name="text"
+          type="text"
+          value="Success"
+          placeholder="Placeholder"
+        />
+        <svg class="icon input__icon input__icon_success">
+          <use href="../../assets/images/sprite.svg#check-circle"></use>
+        </svg>
+        <svg class="icon input__icon input__icon_invalid">
+          <use href="../../assets/images/sprite.svg#alert-triangle"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="input input_invalid">
+      <label for="text" class="input__label">Label</label>
+      <div class="input__wrapper">
+        <input
+          class="input__field"
+          id="text"
+          name="text"
+          type="text"
+          value="Error"
+          placeholder="Placeholder"
+        />
+        <svg class="icon input__icon input__icon_success">
+          <use href="../../assets/images/sprite.svg#check-circle"></use>
+        </svg>
+        <svg class="icon input__icon input__icon_invalid">
+          <use href="../../assets/images/sprite.svg#alert-triangle"></use>
+        </svg>
+      </div>
+    </div>
+  </body>
 </html>
